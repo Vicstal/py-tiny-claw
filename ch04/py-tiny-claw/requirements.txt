@@ -1,0 +1,5 @@
+# 对应 Go 版的 go.mod 依赖
+# github.com/anthropics/anthropic-sdk-go -> anthropic
+# github.com/openai/openai-go           -> openai
+anthropic>=0.40.0
+openai>=1.60.0
