@@ -1,5 +1,4 @@
 # internal/provider/claude.py
-# 对应 Go 版: internal/provider/claude.go
 # 使用 Anthropic 官方 Python SDK（Messages API 协议），Base URL 指向智谱的兼容端点。
 import json
 import os

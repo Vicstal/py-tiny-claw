@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 15 章：主循环接入 ReminderInjector —— 每轮工具执行后做死循环探测与干预。
 import logging
 from concurrent.futures import ThreadPoolExecutor

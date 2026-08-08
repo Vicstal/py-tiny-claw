@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 9 章：主循环通过 Reporter 接口对外汇报运行状态（不再直接 print 到终端）。
 import logging
 from concurrent.futures import ThreadPoolExecutor

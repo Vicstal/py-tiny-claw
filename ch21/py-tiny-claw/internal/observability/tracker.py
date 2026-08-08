@@ -1,5 +1,4 @@
 # internal/observability/tracker.py
-# 对应 Go 版: internal/observability/tracker.go
 # 第 18 章：CostTracker —— 用"装饰器模式"包裹真实 Provider，
 # 无侵入地统计每次 API 调用的耗时、Token 消耗与费用。
 import logging

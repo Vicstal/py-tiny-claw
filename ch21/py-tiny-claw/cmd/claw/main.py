@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 21 章：最终 CLI 形态 —— 命令行参数 + 全息监控 (Tracker + Tracing) + 持久化会话。
 # 运行方式（在 py-tiny-claw 目录下）:
 #   ZHIPU_API_KEY=xxx python -m cmd.claw.main -prompt "你的任务描述" [-dir /path/to/workdir] [-session session_id]

@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 4 章：接入真实大模型（智谱 GLM，走 OpenAI 兼容协议），工具仍然是 mock 的天气工具。
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main
 import logging

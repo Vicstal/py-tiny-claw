@@ -1,5 +1,4 @@
 # internal/schema/message.py
-# 对应 Go 版: internal/schema/message.go
 # 定义引擎内部流转的统一消息格式（与具体模型厂商解耦）。
 from dataclasses import dataclass, field
 

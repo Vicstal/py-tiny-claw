@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 13 章：状态外部化 —— 通过命令行 -prompt 下发任务，PlanMode 强制模型
 # 把计划写入 PLAN.md / TODO.md，进程重启后也能断点续传。
 # 运行方式（在 py-tiny-claw 目录下）:

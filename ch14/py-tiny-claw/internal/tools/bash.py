@@ -1,5 +1,4 @@
 # internal/tools/bash.py
-# 对应 Go 版: internal/tools/bash.go
 # 第 6 章：bash 工具 —— Agent 最强大的"万能手"，可以执行任意 shell 命令。
 import json
 import subprocess

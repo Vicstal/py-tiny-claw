@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 3 章：引入"慢思考"(Thinking Phase)：先剥夺工具强制模型规划，再放开工具让它行动。
 import logging
 

@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 19 章：链路追踪测试 —— 一轮并行调用两个工具，观察 .claw/traces 下的 Trace 树。
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main
 import logging

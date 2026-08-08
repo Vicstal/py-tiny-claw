@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 12 章：主循环接入 Compactor —— 每次请求模型前先做上下文双重降级压缩。
 import logging
 from concurrent.futures import ThreadPoolExecutor

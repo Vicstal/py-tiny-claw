@@ -1,5 +1,4 @@
 # internal/context/composer.py
-# 对应 Go 版: internal/context/composer.go
 # 第 10 章：PromptComposer —— 动态组装 System Prompt：
 # 核心身份 + 核心纪律 + 项目专属指南(AGENTS.md) + 外挂技能(SKILL.md)。
 import os

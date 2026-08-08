@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 12 章：上下文 OOM 保护实验 —— 读取巨大的 mock_log.txt，观察 Compactor 触发压缩。
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main
 import logging

@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 15 章：死循环干预测试 —— 诱导模型反复用同一参数重试，观察 Reminder 注入。
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main
 import logging

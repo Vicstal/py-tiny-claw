@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 17 章：多智能体协同 —— 主 Agent 派出只读沙箱中的子智能体探索，再亲自写入结果。
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main
 import logging

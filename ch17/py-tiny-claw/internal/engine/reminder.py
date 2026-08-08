@@ -1,5 +1,4 @@
 # internal/engine/reminder.py
-# 对应 Go 版: internal/engine/reminder.go
 # 第 15 章：ReminderInjector —— 死循环探测器：
 # 同一"工具+参数"指纹连续失败 3 次，就注入一条强力干预消息。
 import hashlib

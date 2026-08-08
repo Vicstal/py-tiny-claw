@@ -1,5 +1,4 @@
 # internal/context/skill.py
-# 对应 Go 版: internal/context/skill.go
 # 第 10 章：SkillLoader —— 扫描 .claw/skills/ 下的 SKILL.md，将"外挂技能"注入 System Prompt。
 import os
 from dataclasses import dataclass

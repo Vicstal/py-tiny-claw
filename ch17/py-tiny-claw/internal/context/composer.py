@@ -1,5 +1,4 @@
 # internal/context/composer.py
-# 对应 Go 版: internal/context/composer.go
 # 第 13 章：PromptComposer 增加"计划模式"(Plan Mode)：
 # 强制模型把架构思路与执行进度外部化到 PLAN.md / TODO.md，实现断点续传。
 import os

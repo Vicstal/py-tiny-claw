@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 16 章：安全拦截 Middleware + 飞书人工审批（人在回路）。
 # 运行方式（在 py-tiny-claw 目录下）:
 #   ZHIPU_API_KEY=xxx FEISHU_APP_ID=xxx FEISHU_APP_SECRET=xxx python -m cmd.claw.main

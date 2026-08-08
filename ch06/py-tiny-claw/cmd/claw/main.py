@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 6 章：补齐 write_file 和 bash 工具，Agent 首次具备"读写执行"完整能力。
 # （Go 版让模型写 helloworld.go 并用 go 编译运行；Python 版对应改为 helloworld.py）
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main

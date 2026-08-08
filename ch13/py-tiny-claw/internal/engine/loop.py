@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 13 章：计划模式(PlanMode) + 合规的消息结构：
 # Thinking 和 Action 的内容在持久化时合并为一条 Assistant 消息，
 # 保证 Session 中的消息严格保持 User -> Assistant 交替。

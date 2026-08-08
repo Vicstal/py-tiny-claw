@@ -1,5 +1,4 @@
 # internal/feishu/approval.py
-# 对应 Go 版: internal/feishu/approval.go
 # 第 16 章：ApprovalManager —— 高危操作的"人在回路"审批：
 # 工具执行线程挂起等待，直到人类在飞书里回复 approve/reject。
 import logging

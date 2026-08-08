@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 11 章：引擎改为面向 Session 运行：每轮从会话中取"短期工作记忆"拼装上下文，
 # 生成的消息全部持久化回 Session。
 import logging

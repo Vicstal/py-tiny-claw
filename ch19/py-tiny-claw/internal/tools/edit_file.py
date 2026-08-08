@@ -1,5 +1,4 @@
 # internal/tools/edit_file.py
-# 对应 Go 版: internal/tools/edit_file.go
 # 第 7 章：edit_file 工具 —— 局部字符串替换 + 四级模糊匹配兜底策略。
 import json
 import os

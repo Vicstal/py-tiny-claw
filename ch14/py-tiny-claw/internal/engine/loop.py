@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 14 章：主循环接入 RecoveryManager —— 工具报错时拦截结果并注入救援指南。
 import logging
 from concurrent.futures import ThreadPoolExecutor

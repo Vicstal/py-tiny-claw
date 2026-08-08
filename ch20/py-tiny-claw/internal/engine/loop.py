@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 19 章：主循环全面埋点 —— Agent.Run / Turn-N / LLM.Thinking / LLM.Action 逐级 Span。
 import contextvars
 import logging

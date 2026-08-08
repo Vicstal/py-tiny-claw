@@ -1,5 +1,4 @@
 # internal/tools/read_file.py
-# 对应 Go 版: internal/tools/read_file.go
 # 第 5 章：第一个真实工具 —— 读取工作区内的文件。
 import json
 import os

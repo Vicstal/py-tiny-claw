@@ -1,5 +1,4 @@
 # internal/eval/benchmark.py
-# 对应 Go 版: internal/eval/benchmark.go
 # 第 20 章：BenchmarkRunner —— 自动化评测：沙箱隔离 + Setup 靶机 + Agent 干活 + 脚本判卷。
 import logging
 import os

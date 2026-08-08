@@ -1,5 +1,4 @@
 # internal/context/compactor.py
-# 对应 Go 版: internal/context/compactor.go
 # 第 12 章：Compactor —— 上下文"内存回收器"：
 # 超过阈值时，对早期工具输出和早期思考过程做降级压缩，防止上下文 OOM。
 import logging

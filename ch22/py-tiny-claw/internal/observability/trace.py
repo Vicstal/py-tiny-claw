@@ -1,5 +1,4 @@
 # internal/observability/trace.py
-# 对应 Go 版: internal/observability/trace.go
 # 第 19 章：极简链路追踪 (Tracing)。
 # Go 版通过 context.Context 逐层传递父 Span；Python 版用标准库 contextvars 实现同样的
 # "当前 Span" 级联语义（跨线程时配合 contextvars.copy_context 使用）。

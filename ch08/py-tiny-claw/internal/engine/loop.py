@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 8 章：并发执行工具调用。Go 版用 goroutine + WaitGroup，
 # Python 版用 ThreadPoolExecutor 实现同样的"并发执行、按序聚合"。
 import logging

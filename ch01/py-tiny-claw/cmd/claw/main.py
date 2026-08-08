@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 1 章：搭建项目骨架。此时只有一个入口文件，各模块尚未实现。
 import logging
 

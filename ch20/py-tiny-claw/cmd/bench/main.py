@@ -1,5 +1,4 @@
 # cmd/bench/main.py
-# 对应 Go 版: cmd/bench/main.go
 # 第 20 章：微型评测集入口。
 # （Go 版的第二个用例是 math.go + go test；Python 版对应改为 calc.py + unittest。
 #   之所以不叫 math.py，是为了避免与 Python 标准库 math 模块重名导致测试环境崩溃。）

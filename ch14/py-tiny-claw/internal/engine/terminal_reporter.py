@@ -1,5 +1,4 @@
 # internal/engine/terminal_reporter.py
-# 对应 Go 版: internal/engine/terminal_reporter.go
 # 第 10 章：终端版 Reporter —— 在本地调试时直接把过程打印到终端。
 from internal.engine.reporter import Reporter
 

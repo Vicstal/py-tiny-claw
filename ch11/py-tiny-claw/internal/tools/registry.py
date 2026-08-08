@@ -1,5 +1,4 @@
 # internal/tools/registry.py
-# 对应 Go 版: internal/tools/registry.go
 # 第 5 章：Registry 从接口升级为真实实现，负责工具的注册、查找与统一执行。
 import logging
 from abc import ABC, abstractmethod

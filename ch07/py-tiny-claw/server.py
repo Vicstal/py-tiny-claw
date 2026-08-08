@@ -1,4 +1,4 @@
-# 对应 Go 版: server.go（供 edit_file 工具做局部修改实验的示例文件）
+# 供 edit_file 工具做局部修改实验的示例文件
 def main():
     # 启动服务器
     print("Server is starting on port 8080...")

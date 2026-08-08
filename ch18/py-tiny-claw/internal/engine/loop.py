@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 17 章：新增 run_sub —— 专为子智能体拉起的一次性受限循环（只读工具 + 轮数上限）。
 import logging
 from concurrent.futures import ThreadPoolExecutor

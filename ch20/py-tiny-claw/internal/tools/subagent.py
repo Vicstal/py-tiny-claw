@@ -1,5 +1,4 @@
 # internal/tools/subagent.py
-# 对应 Go 版: internal/tools/subagent.go
 # 第 17 章：spawn_subagent 工具 —— 主 Agent 派出"探路者"子智能体做深度探索，
 # 只把精炼的摘要报告带回主上下文。
 import json

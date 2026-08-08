@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 7 章：挂载 edit_file 工具，让 Agent 学会"外科手术式"的局部修改。
 # （Go 版的实验对象是 server.go；Python 版对应改为 server.py）
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main

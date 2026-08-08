@@ -1,5 +1,4 @@
 # internal/context/session.py
-# 对应 Go 版: internal/context/session.go
 # 第 11 章：Session —— 多会话隔离 + 短期工作记忆（带截断保护）。
 import threading
 from datetime import datetime

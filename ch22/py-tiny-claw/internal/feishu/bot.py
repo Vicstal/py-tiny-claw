@@ -1,5 +1,4 @@
 # internal/feishu/bot.py
-# 对应 Go 版: internal/feishu/bot.go
 # 第 22 章：AgentOps 收官改造 ——
 # 1) Reporter 通过上下文传递（Go 用 context.WithValue，Python 用 contextvars 对应实现），
 #    解决并发场景下 Middleware 如何拿到"当前会话专属 Reporter"的问题；

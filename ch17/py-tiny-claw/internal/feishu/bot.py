@@ -1,5 +1,4 @@
 # internal/feishu/bot.py
-# 对应 Go 版: internal/feishu/bot.go
 # 第 16 章：飞书机器人增加审批口令拦截 —— "approve <taskID>" / "reject <taskID>"
 # 直接唤醒挂起等待的工具执行线程。
 import json

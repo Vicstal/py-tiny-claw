@@ -1,5 +1,4 @@
 # internal/context/recovery.py
-# 对应 Go 版: internal/context/recovery.go
 # 第 14 章：RecoveryManager —— 工具执行失败时，根据报错特征注入"救援指南"，让模型自愈。
 
 

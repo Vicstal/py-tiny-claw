@@ -1,5 +1,4 @@
 # internal/tools/registry.py
-# 对应 Go 版: internal/tools/registry.go
 # 第 19 章：Registry 的 execute 增加 Tracing 埋点。
 import logging
 from abc import ABC, abstractmethod

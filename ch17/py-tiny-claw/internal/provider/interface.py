@@ -1,5 +1,4 @@
 # internal/provider/interface.py
-# 对应 Go 版: internal/provider/interface.go
 from abc import ABC, abstractmethod
 
 from internal.schema.message import Message, ToolDefinition

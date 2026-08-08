@@ -1,5 +1,4 @@
 # internal/provider/openai.py
-# 对应 Go 版: internal/provider/openai.go
 # 使用 OpenAI 官方 Python SDK（Chat Completions 协议），Base URL 指向智谱的兼容端点。
 import os
 

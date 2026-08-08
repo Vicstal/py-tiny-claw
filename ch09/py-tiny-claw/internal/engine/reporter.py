@@ -1,5 +1,4 @@
 # internal/engine/reporter.py
-# 对应 Go 版: internal/engine/reporter.go
 # 第 9 章：Reporter 接口 —— 把引擎运行过程中的关键事件外发（如飞书群、终端）。
 from abc import ABC, abstractmethod
 

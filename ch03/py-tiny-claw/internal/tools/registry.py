@@ -1,5 +1,4 @@
 # internal/tools/registry.py
-# 对应 Go 版: internal/tools/registry.go
 # 第 2 章：此时 Registry 还只是一个接口定义，具体实现由 main.py 中的 mock 提供。
 from abc import ABC, abstractmethod
 

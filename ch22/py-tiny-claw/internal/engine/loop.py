@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 21 章：CLI 化收尾 —— 放宽压缩阈值，并修复工作记忆截断导致的协议错乱问题。
 import contextvars
 import logging

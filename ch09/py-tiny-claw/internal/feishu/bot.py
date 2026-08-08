@@ -1,5 +1,4 @@
 # internal/feishu/bot.py
-# 对应 Go 版: internal/feishu/bot.go
 # 第 9 章：飞书机器人 —— 接收群聊消息事件，触发 Agent 运行，并把过程回报到群里。
 # 使用飞书官方 Python SDK: lark-oapi (对应 Go 版的 larksuite/oapi-sdk-go)
 import json

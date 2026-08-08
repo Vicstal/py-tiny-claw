@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 2 章：Agent 的心脏 —— Reason(推理) -> Act(行动) -> Observe(观察) 主循环。
 import logging
 

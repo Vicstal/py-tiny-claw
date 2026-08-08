@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 2 章：用 mock 的 Provider 和 Registry 驱动主循环，验证 Reason-Act-Observe 骨架。
 # 运行方式（在 py-tiny-claw 目录下）: python -m cmd.claw.main
 import logging

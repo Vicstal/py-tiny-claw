@@ -1,5 +1,4 @@
 # internal/engine/loop.py
-# 对应 Go 版: internal/engine/loop.go
 # 第 10 章：引擎接入 PromptComposer，System Prompt 不再写死，而是动态组装。
 import logging
 from concurrent.futures import ThreadPoolExecutor

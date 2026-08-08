@@ -1,5 +1,4 @@
 # internal/tools/registry.py
-# 对应 Go 版: internal/tools/registry.go
 # 第 16 章：Registry 增加 Middleware 机制 —— 所有工具执行前都要先过安全拦截链。
 import logging
 from abc import ABC, abstractmethod

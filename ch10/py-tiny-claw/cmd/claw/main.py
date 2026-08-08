@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 10 章：工作区隔离(workspace/) + AGENTS.md 项目记忆 + SKILL.md 外挂技能。
 # （Go 版让模型写 ping.go；Python 版对应改为 ping.py）
 # 运行方式（在 py-tiny-claw 目录下）: ZHIPU_API_KEY=xxx python -m cmd.claw.main

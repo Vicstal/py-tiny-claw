@@ -1,5 +1,4 @@
 # internal/tools/write_file.py
-# 对应 Go 版: internal/tools/write_file.go
 # 第 6 章：write_file 工具 —— 创建或整体覆盖写入文件。
 import json
 import os

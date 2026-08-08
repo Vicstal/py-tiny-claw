@@ -1,5 +1,4 @@
 # cmd/claw/main.py
-# 对应 Go 版: cmd/claw/main.go
 # 第 9 章：启动一个 HTTP 服务，接收飞书 Webhook 事件，把 Agent 接入群聊。
 # Go 版用 net/http + httpserverext；Python 版用标准库 http.server 手工适配 lark SDK。
 # 运行方式（在 py-tiny-claw 目录下）:
