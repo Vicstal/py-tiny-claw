@@ -37,7 +37,23 @@ class BashTool(BaseTool):
         except json.JSONDecodeError as e:
             raise RuntimeError(f"参数解析失败: {e}") from e
 
-        # 30 秒超时保护，防止模型执行的命令把引擎挂死（对应 Go 的 context.WithTimeout）
+        # 30 秒超时保护，防止模型执行的命令把引擎挂死
+        """
+          Python 的 subprocess.run(...) 函数会向操作系统发起请求，创建一个独立的子进程来运行指定程序。具体各个参数的作用如下：                                          
+                                                                                                                                                                
+        1. ["bash", "-c", command]                                                                                                                                    
+            • 这是真正执行命令的方式。它并不是直接把命令交给系统底层，而是启动系统的 bash 解释器进程。                                                                
+            • -c 参数告诉 Bash：“请把接下来的字符串 command 当作一条或一组完整的 Bash 脚本指令来解析和执行”。                                                         
+            • 好处：这样使得 command 可以支持重定向（如 >）、管道（如 |）、变量以及链式组合命令（如 && 或 ;）。                                                       
+        2. cwd=self.work_dir                                                                                                                                          
+            • 指定命令执行的工作目录（Working Directory）。比如设为 /path/to/project，那么命令中的相对路径都会在此目录下生效。                                        
+        3. capture_output=True                                                                                                                                        
+            • 告诉 Python 截获该子进程的标准输出（stdout）和标准错误（stderr），而不是直接打印在控制台上。                                                            
+        4. text=True                                                                                                                                                  
+            • 自动将捕获到的二进制字节流（bytes）按照 UTF-8 编码转换成 Python 的字符串（str），方便后续处理。                                                         
+        5. timeout=30                                                                                                                                                 
+            • 超时保护机制：如果命执行超过 30 秒（例如死循环或交互式卡住），subprocess 会自动杀死该 Bash 子进程并抛出 subprocess.TimeoutExpired 异常。
+        """
         try:
             proc = subprocess.run(
                 ["bash", "-c", input_args.get("command", "")],

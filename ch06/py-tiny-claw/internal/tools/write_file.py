@@ -1,5 +1,4 @@
 # internal/tools/write_file.py
-# 对应 Go 版: internal/tools/write_file.go
 # 第 6 章：write_file 工具 —— 创建或整体覆盖写入文件。
 import json
 import os
@@ -46,7 +45,7 @@ class WriteFileTool(BaseTool):
 
         full_path = os.path.join(self.work_dir, path)
 
-        # 自动创建父目录（对应 Go 的 os.MkdirAll）
+        # 自动创建父目录
         try:
             os.makedirs(os.path.dirname(full_path), exist_ok=True)
         except OSError as e:

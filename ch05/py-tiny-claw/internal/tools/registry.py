@@ -27,7 +27,7 @@ class BaseTool(ABC):
 
 
 class Registry(ABC):
-    """工具注册中心接口"""
+    """工具注册中心接口，实现注册表的挂载和执行逻辑"""
 
     @abstractmethod
     def register(self, tool: BaseTool):
